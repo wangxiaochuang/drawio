@@ -4,6 +4,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="p8B6BGGnhB6TN0ybR1c--3" value="资产管理" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="380" width="860" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="p8B6BGGnhB6TN0ybR1c--4" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="p8B6BGGnhB6TN0ybR1c--3">
+          <mxGeometry width="5217.333333333333" height="3843" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="a4f9nEHsM2PYJKxp3DLD-5" value="员工管理" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1180" y="380" width="460" height="380" as="geometry" />
         </mxCell>
@@ -41,10 +49,10 @@
           <mxGeometry x="700" y="650" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="YWx1aCmsJX0AzAvw_LsL-46" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;审批记录&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;:审批结果{同意|驳回|提交}&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;审批人&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="710" y="885" width="160" height="100" as="geometry" />
+          <mxGeometry x="710" y="825" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="YWx1aCmsJX0AzAvw_LsL-50" value="{&lt;div&gt;- 只允许当前审批节点人操作&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 员工：审批时间、审批人、审批结果（提交）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- 管理员：审批时间、审批人、审批结果（同意/驳回）、审批备注&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;fillColor=#FFB366;" parent="1" vertex="1">
-          <mxGeometry x="200" y="840" width="210" height="190" as="geometry" />
+          <mxGeometry x="375" y="800" width="210" height="190" as="geometry" />
         </mxCell>
         <mxCell id="YWx1aCmsJX0AzAvw_LsL-51" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1.005;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="YWx1aCmsJX0AzAvw_LsL-50" target="YWx1aCmsJX0AzAvw_LsL-46" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -69,9 +77,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YWx1aCmsJX0AzAvw_LsL-63" value="{&lt;div&gt;- 未分配员工的资产，任务分发给所有的管理员&lt;/div&gt;&lt;div&gt;- 已分配员工的资产，任务分发给对应员工&lt;/div&gt;&lt;div&gt;- 管理员可以修改所属员工&lt;br&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;fillColor=#FFB366;" parent="1" vertex="1">
-          <mxGeometry x="170" y="640" width="200" height="170" as="geometry" />
+          <mxGeometry x="940" y="715" width="200" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="YWx1aCmsJX0AzAvw_LsL-65" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0;exitY=0;exitDx=200;exitDy=95;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="YWx1aCmsJX0AzAvw_LsL-63" target="YWx1aCmsJX0AzAvw_LsL-41" edge="1">
+        <mxCell id="YWx1aCmsJX0AzAvw_LsL-65" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=-0.003;exitY=0.208;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="YWx1aCmsJX0AzAvw_LsL-63" target="YWx1aCmsJX0AzAvw_LsL-41" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="740" as="sourcePoint" />
             <mxPoint x="490" y="740" as="targetPoint" />
